@@ -14,6 +14,7 @@
 		8BEBDED61BCD815500911676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDED41BCD815500911676 /* LaunchScreen.storyboard */; };
 		8BEBDEE11BCD815500911676 /* RedDotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDEE01BCD815500911676 /* RedDotTests.swift */; };
 		8BEBDEEC1BCD815500911676 /* RedDotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDEEB1BCD815500911676 /* RedDotUITests.swift */; };
+		8BEBDEFA1BCD816900911676 /* RedDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDEF91BCD816900911676 /* RedDot.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		8BEBDEE71BCD815500911676 /* RedDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEBDEEB1BCD815500911676 /* RedDotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotUITests.swift; sourceTree = "<group>"; };
 		8BEBDEED1BCD815500911676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEBDEF91BCD816900911676 /* RedDot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedDot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				8BEBDECB1BCD815500911676 /* AppDelegate.swift */,
+				8BEBDEF91BCD816900911676 /* RedDot.swift */,
 				8BEBDECD1BCD815500911676 /* ViewController.swift */,
 				8BEBDECF1BCD815500911676 /* Main.storyboard */,
 				8BEBDED21BCD815500911676 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			files = (
 				8BEBDECE1BCD815500911676 /* ViewController.swift in Sources */,
 				8BEBDECC1BCD815500911676 /* AppDelegate.swift in Sources */,
+				8BEBDEFA1BCD816900911676 /* RedDot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
