@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BEBDECC1BCD815500911676 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDECB1BCD815500911676 /* AppDelegate.swift */; };
+		8BEBDECE1BCD815500911676 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDECD1BCD815500911676 /* ViewController.swift */; };
+		8BEBDED11BCD815500911676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDECF1BCD815500911676 /* Main.storyboard */; };
+		8BEBDED31BCD815500911676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDED21BCD815500911676 /* Assets.xcassets */; };
+		8BEBDED61BCD815500911676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BEBDED41BCD815500911676 /* LaunchScreen.storyboard */; };
+		8BEBDEE11BCD815500911676 /* RedDotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDEE01BCD815500911676 /* RedDotTests.swift */; };
+		8BEBDEEC1BCD815500911676 /* RedDotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEBDEEB1BCD815500911676 /* RedDotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BEBDEDD1BCD815500911676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEBDEC01BCD815500911676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEBDEC71BCD815500911676;
+			remoteInfo = RedDot;
+		};
+		8BEBDEE81BCD815500911676 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEBDEC01BCD815500911676 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BEBDEC71BCD815500911676;
+			remoteInfo = RedDot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BEBDEC81BCD815500911676 /* RedDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEBDECB1BCD815500911676 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BEBDECD1BCD815500911676 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BEBDED01BCD815500911676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BEBDED21BCD815500911676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BEBDED51BCD815500911676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BEBDED71BCD815500911676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEBDEDC1BCD815500911676 /* RedDotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedDotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEBDEE01BCD815500911676 /* RedDotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotTests.swift; sourceTree = "<group>"; };
+		8BEBDEE21BCD815500911676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BEBDEE71BCD815500911676 /* RedDotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedDotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BEBDEEB1BCD815500911676 /* RedDotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedDotUITests.swift; sourceTree = "<group>"; };
+		8BEBDEED1BCD815500911676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BEBDEC51BCD815500911676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDED91BCD815500911676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDEE41BCD815500911676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BEBDEBF1BCD815500911676 = {
+			isa = PBXGroup;
+			children = (
+				8BEBDECA1BCD815500911676 /* RedDot */,
+				8BEBDEDF1BCD815500911676 /* RedDotTests */,
+				8BEBDEEA1BCD815500911676 /* RedDotUITests */,
+				8BEBDEC91BCD815500911676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BEBDEC91BCD815500911676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBDEC81BCD815500911676 /* RedDot.app */,
+				8BEBDEDC1BCD815500911676 /* RedDotTests.xctest */,
+				8BEBDEE71BCD815500911676 /* RedDotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BEBDECA1BCD815500911676 /* RedDot */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBDECB1BCD815500911676 /* AppDelegate.swift */,
+				8BEBDECD1BCD815500911676 /* ViewController.swift */,
+				8BEBDECF1BCD815500911676 /* Main.storyboard */,
+				8BEBDED21BCD815500911676 /* Assets.xcassets */,
+				8BEBDED41BCD815500911676 /* LaunchScreen.storyboard */,
+				8BEBDED71BCD815500911676 /* Info.plist */,
+			);
+			path = RedDot;
+			sourceTree = "<group>";
+		};
+		8BEBDEDF1BCD815500911676 /* RedDotTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBDEE01BCD815500911676 /* RedDotTests.swift */,
+				8BEBDEE21BCD815500911676 /* Info.plist */,
+			);
+			path = RedDotTests;
+			sourceTree = "<group>";
+		};
+		8BEBDEEA1BCD815500911676 /* RedDotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BEBDEEB1BCD815500911676 /* RedDotUITests.swift */,
+				8BEBDEED1BCD815500911676 /* Info.plist */,
+			);
+			path = RedDotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BEBDEC71BCD815500911676 /* RedDot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEBDEF01BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDot" */;
+			buildPhases = (
+				8BEBDEC41BCD815500911676 /* Sources */,
+				8BEBDEC51BCD815500911676 /* Frameworks */,
+				8BEBDEC61BCD815500911676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedDot;
+			productName = RedDot;
+			productReference = 8BEBDEC81BCD815500911676 /* RedDot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BEBDEDB1BCD815500911676 /* RedDotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEBDEF31BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDotTests" */;
+			buildPhases = (
+				8BEBDED81BCD815500911676 /* Sources */,
+				8BEBDED91BCD815500911676 /* Frameworks */,
+				8BEBDEDA1BCD815500911676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEBDEDE1BCD815500911676 /* PBXTargetDependency */,
+			);
+			name = RedDotTests;
+			productName = RedDotTests;
+			productReference = 8BEBDEDC1BCD815500911676 /* RedDotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BEBDEE61BCD815500911676 /* RedDotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BEBDEF61BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDotUITests" */;
+			buildPhases = (
+				8BEBDEE31BCD815500911676 /* Sources */,
+				8BEBDEE41BCD815500911676 /* Frameworks */,
+				8BEBDEE51BCD815500911676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BEBDEE91BCD815500911676 /* PBXTargetDependency */,
+			);
+			name = RedDotUITests;
+			productName = RedDotUITests;
+			productReference = 8BEBDEE71BCD815500911676 /* RedDotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BEBDEC01BCD815500911676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Miku;
+				TargetAttributes = {
+					8BEBDEC71BCD815500911676 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8BEBDEDB1BCD815500911676 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8BEBDEC71BCD815500911676;
+					};
+					8BEBDEE61BCD815500911676 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8BEBDEC71BCD815500911676;
+					};
+				};
+			};
+			buildConfigurationList = 8BEBDEC31BCD815500911676 /* Build configuration list for PBXProject "RedDot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BEBDEBF1BCD815500911676;
+			productRefGroup = 8BEBDEC91BCD815500911676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BEBDEC71BCD815500911676 /* RedDot */,
+				8BEBDEDB1BCD815500911676 /* RedDotTests */,
+				8BEBDEE61BCD815500911676 /* RedDotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BEBDEC61BCD815500911676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEBDED61BCD815500911676 /* LaunchScreen.storyboard in Resources */,
+				8BEBDED31BCD815500911676 /* Assets.xcassets in Resources */,
+				8BEBDED11BCD815500911676 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDEDA1BCD815500911676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDEE51BCD815500911676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BEBDEC41BCD815500911676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEBDECE1BCD815500911676 /* ViewController.swift in Sources */,
+				8BEBDECC1BCD815500911676 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDED81BCD815500911676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEBDEE11BCD815500911676 /* RedDotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BEBDEE31BCD815500911676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BEBDEEC1BCD815500911676 /* RedDotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BEBDEDE1BCD815500911676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEBDEC71BCD815500911676 /* RedDot */;
+			targetProxy = 8BEBDEDD1BCD815500911676 /* PBXContainerItemProxy */;
+		};
+		8BEBDEE91BCD815500911676 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BEBDEC71BCD815500911676 /* RedDot */;
+			targetProxy = 8BEBDEE81BCD815500911676 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BEBDECF1BCD815500911676 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEBDED01BCD815500911676 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BEBDED41BCD815500911676 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BEBDED51BCD815500911676 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BEBDEEE1BCD815500911676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BEBDEEF1BCD815500911676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BEBDEF11BCD815500911676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedDot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BEBDEF21BCD815500911676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RedDot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BEBDEF41BCD815500911676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedDot.app/RedDot";
+			};
+			name = Debug;
+		};
+		8BEBDEF51BCD815500911676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedDotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedDot.app/RedDot";
+			};
+			name = Release;
+		};
+		8BEBDEF71BCD815500911676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedDot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8BEBDEF81BCD815500911676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedDotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miku.RedDotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedDot;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BEBDEC31BCD815500911676 /* Build configuration list for PBXProject "RedDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEBDEEE1BCD815500911676 /* Debug */,
+				8BEBDEEF1BCD815500911676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BEBDEF01BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEBDEF11BCD815500911676 /* Debug */,
+				8BEBDEF21BCD815500911676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BEBDEF31BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEBDEF41BCD815500911676 /* Debug */,
+				8BEBDEF51BCD815500911676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BEBDEF61BCD815500911676 /* Build configuration list for PBXNativeTarget "RedDotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BEBDEF71BCD815500911676 /* Debug */,
+				8BEBDEF81BCD815500911676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BEBDEC01BCD815500911676 /* Project object */;
+}
